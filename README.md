@@ -19,3 +19,8 @@
 ## 验收边界
 
 Draft 版本仍待最终本地验收摘要和部署交接，不表示公网服务已经上线、端口已经可达或游戏业务已经验收。正式可下载版本以已发布的 GitHub Release 为准。
+
+## 已发布版本
+
+- [v136.118.64 版本记录](releases/v136.118.64/)
+- [v136.118.64 GitHub Release](https://github.com/timliu-joon/ttdm-releases/releases/tag/v136.118.64)

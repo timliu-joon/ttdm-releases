@@ -1,0 +1,121 @@
+{
+  "schema": "TTDM_RELEASE_MANIFEST_V1",
+  "version": "v136.118.64",
+  "created_at": "2026-10-14T17:42:04.070936+08:00",
+  "status": "DELIVERY_READY",
+  "baseline": "v135.117.63",
+  "component_delta": {
+    "server": 1,
+    "client": 1,
+    "database": 1
+  },
+  "source": {
+    "original_commit": "5470d121f0abcd6046be00483a34a616064bcf22",
+    "original_tree": "2684d48fccd1421f5912f73caad486e32ec40bd1",
+    "archive_sha256": "B13B8833E6A5112B796CA85EE9B7EB07E0F485E9756592CF6602DEE80AFFD243",
+    "manifest_sha256": "7040B23268C1CF54F8BF6A46C1EB9FA0E60B43B6A1B01E098F4CC12ACDC27596",
+    "index_sha256": "BBC0E96644665728CD13862570E4509C3C6A08015D3524F303F419C9C01BE80B",
+    "private_archive_commit": "e041850de7d3f3f85f7fca5077eb066c11e4d6eb",
+    "private_archive_tree": "29ae3aae4a9ffc5d336b7486d96abf4d72550fe5",
+    "full_source_is_private": true
+  },
+  "products": [
+    {
+      "name": "client-full-manifest.tsv",
+      "bytes": 72394,
+      "sha256": "89171C80471A6118741627A27B56E576BC7C6D7C1D652616427D52510081E2BE",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/client-full-manifest.tsv"
+    },
+    {
+      "name": "feed-manifest.tsv",
+      "bytes": 369,
+      "sha256": "7FFE6DEB31048349FF8A8AE7FE805226425C26C32C573C90FA18DFC22316844C",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/feed-manifest.tsv"
+    },
+    {
+      "name": "patch136.118.64.dt",
+      "bytes": 2058063,
+      "sha256": "90A525F254852C3FEB1F663C24AFDD35FB46D045A1EDFC134E5816F8067CB12B",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/patch136.118.64.dt"
+    },
+    {
+      "name": "server-full-manifest.tsv",
+      "bytes": 1308,
+      "sha256": "AE85CB6E6C1A6DE68BBF42D7DA838595D2E41CB2BF00444A44D5B750E554A046",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/server-full-manifest.tsv"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 553,
+      "sha256": "869B5772F078C5DBC9C80BF4CC5151D822CF6187B42A3139497B55D45EB2A144",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/SHA256SUMS"
+    },
+    {
+      "name": "ttdm-v136.118.64-public-client.zip",
+      "bytes": 440119471,
+      "sha256": "476106AAC6EDC4F4E7AD32DB444CF0CE6DA8C31CB1520A61363BB97BD79C3E66",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/ttdm-v136.118.64-public-client.zip"
+    },
+    {
+      "name": "ttdm-v136.118.64-public-server.zip",
+      "bytes": 19186203,
+      "sha256": "B2FC9C43BB3EEA4324EE4BDB37F0A6D561D8A447DBE7F0F96799A7BBBD618AFA",
+      "download_url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/ttdm-v136.118.64-public-server.zip"
+    }
+  ],
+  "native_update": {
+    "baseline": "135.117.63",
+    "target": "136.118.64",
+    "delivery": "server-hosted native DT",
+    "feed_base": "http://124.222.104.67:18080/stable",
+    "player_updates_from_github": false,
+    "user_setting_overwritten": false
+  },
+  "local_acceptance": {
+    "file": "local-verification.json",
+    "sha256": "EB685C81EB86CA40D299A2E5603183F5E7524699F869689E64DA5C78537A1FE0",
+    "status": "PASS_WITH_USER_MAP_BACKGROUND_WAIVER"
+  },
+  "included_issue_ids": [
+    "TTDM-001",
+    "TTDM-002",
+    "TTDM-003",
+    "TTDM-004",
+    "TTDM-005",
+    "TTDM-006",
+    "TTDM-007",
+    "TTDM-008",
+    "TTDM-009",
+    "TTDM-010",
+    "TTDM-011",
+    "TTDM-012",
+    "TTDM-013",
+    "TTDM-014",
+    "TTDM-015",
+    "TTDM-016",
+    "TTDM-017",
+    "TTDM-018",
+    "TTDM-019",
+    "TTDM-020",
+    "TTDM-021",
+    "TTDM-022",
+    "TTDM-023",
+    "TTDM-024",
+    "TTDM-025",
+    "TTDM-026",
+    "TTDM-027",
+    "TTDM-028",
+    "TTDM-031",
+    "TTDM-032",
+    "TTDM-033",
+    "TTDM-034"
+  ],
+  "cloud": {
+    "deployment": "NOT_RUN",
+    "external_acceptance": "NOT_RUN",
+    "next_owner": "WorkBuddy"
+  },
+  "zero_player_seed_sha256": "ADF3BD93F49FF892D4DFB8702B500FAA7390F72E3CE99B8B6B487E43D5E8C5B4",
+  "environment_policy": "Exact endpoint whitelist; regenerated DT supplied by Codex. Never change version or resolution during deployment.",
+  "immutable_release": "Do not replace an asset under this version; all subsequent changes build cumulatively on this version and increment affected component segments."
+}

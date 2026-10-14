@@ -1,0 +1,52 @@
+{
+  "schema": "TTDM_PUBLIC_LOCAL_VERIFICATION_V1",
+  "version": "v136.118.64",
+  "at": "2026-10-14T17:42:04.070936+08:00",
+  "status": "LOCAL_ONLINE_ACCEPTED",
+  "source_commit": "5470d121f0abcd6046be00483a34a616064bcf22",
+  "source_tree": "2684d48fccd1421f5912f73caad486e32ec40bd1",
+  "isolated_actual": [
+    "Normal native startup downloaded server-hosted update135.117.63 to136.118.64; eight postimages matched.",
+    "1366x800 actual world, natural exit, next startup retained resolution and target version.",
+    "800x600 and1024x768 native settings and actual windows verified.",
+    "Registration decorations, chat boundary and resize fixes verified using actual native client."
+  ],
+  "formal_root_actual": [
+    "Full matching server/client promoted after cold stop and protected old-root backup.",
+    "Two newly registered different accounts created characters and entered the same server; mutual visibility, movement and peer logout observed.",
+    "Nearby message received by peer; native chat resized/restored without overlapping system messages or lower controls.",
+    "Native settings default1024x768 and all three choices shown. Target title and update notice displayed; user agreement empty.",
+    "Normal client exit and next startup retained1024x768 and target version; server stopped cleanly."
+  ],
+  "evidence_reuse": "Earlier accepted unchanged game behavior is reused by source/resource identity. Affected UI and startup behavior were actually retested; no blanket claim of fresh replay.",
+  "user_waivers": [
+    {
+      "item": "Independent cross-map loading-background observation",
+      "decision": "Direct user waived this test and authorized acceptance on2026-10-14",
+      "actual": "NOT_RUN_USER_WAIVED",
+      "entry_background_actual": "PASS"
+    }
+  ],
+  "not_run": [
+    "Cloud deployment and public connectivity",
+    "External player business acceptance",
+    "Download-interruption recovery",
+    "Capacity/load testing"
+  ],
+  "local_evidence_sha256": {
+    "formal_acceptance": "BA956D6A1A907022F9093FC57021F8FB877C40DAE75AC65A197262D87A0563DF",
+    "scoped_reuse": "CC8C546F522A1E77F2E802642353F6C9C0DD44005FFB9AE2FDFF8BA71ABACEB2",
+    "isolated_native_update": "5BA58A8612644710EC1D2779852739AE301F9FEA8C186A2B064F1D27CBBD8B3E"
+  },
+  "clean_delivery": {
+    "default_resolution": "1024x768",
+    "options": [
+      "800x600",
+      "1024x768",
+      "1366x800"
+    ],
+    "player_records": 0,
+    "player_credentials_in_package": false,
+    "local_test_records_in_package": false
+  }
+}

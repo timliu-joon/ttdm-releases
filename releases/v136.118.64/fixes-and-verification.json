@@ -1,0 +1,299 @@
+{
+  "version": "v136.118.64",
+  "maintainer": "Root",
+  "items": [
+    {
+      "id": "TTDM-001",
+      "title": "同服不同账号互见、移动后站立及重登",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-002",
+      "title": "入场15%等待约20秒",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-003",
+      "title": "组队邀请、退出、转队长和踢人",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-004",
+      "title": "队伍状态与分配方式实时同步",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-005",
+      "title": "队长与队员重登恢复队伍",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-006",
+      "title": "查看全部装备栏及详细属性、穿脱刷新",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-007",
+      "title": "披风查看崩溃及装备投影入场断开",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-008",
+      "title": "交易取消",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-009",
+      "title": "骑马点击跟随崩溃",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-010",
+      "title": "交易全过程原生系统提示",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-011",
+      "title": "普通聊天频道投递与接收过滤",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-012",
+      "title": "武林号令扣物、全服播报与特效",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-013",
+      "title": "TAB大地图队员位置和移动",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-014",
+      "title": "远离队友头像不误报低血闪烁",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-015",
+      "title": "注册五行标签中文冒号及右对齐间距",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-016",
+      "title": "聊天文字不遮挡底部过滤与滚动锁定控件",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-017",
+      "title": "进入游戏及过图采用指定彩图",
+      "version": "v136.118.64",
+      "local_status": "ENTRY_PASS_MAP_TRANSFER_USER_WAIVED",
+      "formal_status": "ENTRY_PASS_MAP_TRANSFER_USER_WAIVED",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "User waived map-specific background UI"
+    },
+    {
+      "id": "TTDM-018",
+      "title": "注册、入库、安全码与新账号登录",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-019",
+      "title": "未注册与错误密码的原生提示",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-020",
+      "title": "同账号第二第三角色创建及重名校验",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-021",
+      "title": "同服同账号重复登录提示",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-022",
+      "title": "密语与好友持久化",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "REUSED_UNCHANGED_BUSINESS_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-023",
+      "title": "息侠居名称一致",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-024",
+      "title": "客户端193启动错误与最新更新项保留",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-025",
+      "title": "零玩家完整客户端及首发空库",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-026",
+      "title": "原生更新、可选分辨率及三段版号",
+      "version": "v136.118.64",
+      "local_status": "PASS",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-027",
+      "title": "正式根匹配成品晋升与实际验收",
+      "version": "v136.118.64",
+      "local_status": "PASS_SCOPED_EVIDENCE_REUSE",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-028",
+      "title": "GitHub成品、源码同步与WorkBuddy交接",
+      "version": "v136.118.64",
+      "local_status": "NOT_RUN",
+      "formal_status": "NOT_RUN",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-031",
+      "title": "注册框标签残留边框与输入框双重绘制",
+      "version": "v136.118.64",
+      "local_status": "PASS",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-032",
+      "title": "系统消息与聊天内容框重叠及缩放角标错位",
+      "version": "v136.118.64",
+      "local_status": "PASS",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-033",
+      "title": "随包启动器未接纳已验服务端资源身份",
+      "version": "v136.118.64",
+      "local_status": "PASS",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    },
+    {
+      "id": "TTDM-034",
+      "title": "原生启动设置三档分辨率与本地配置保存",
+      "version": "v136.118.64",
+      "local_status": "PASS",
+      "formal_status": "PASS_AFFECTED_SCOPE",
+      "cloud_status": "NOT_RUN",
+      "acceptance_note": "See local-verification; unchanged behavior uses identity-bound earlier evidence."
+    }
+  ],
+  "deferred": [
+    "Guild functions and guild chat in next version by direct user decision",
+    "Faction chat when associated capability is ready"
+  ],
+  "cloud_incidents": []
+}
