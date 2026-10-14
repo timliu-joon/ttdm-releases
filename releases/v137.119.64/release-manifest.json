@@ -12,10 +12,10 @@
   "source_tree": "323cdfd70b77c2aba7c36a99acead6a42a1c165e",
   "delivery_form": "INCREMENTAL_UPDATE_FROM_ACCEPTED_FORMAL_ROOT",
   "incremental_archive": {
-    "name": "听唐渡梦-v136.118.64-to-v137.119.64-update.zip",
+    "name": "ttdm-v136.118.64-to-v137.119.64-update.zip",
     "bytes": 9932389,
     "sha256": "FF6D0818B233A23142F30B3975E27B06516D6402AF7277E03AC821922C219B8F",
-    "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v137.119.64/听唐渡梦-v136.118.64-to-v137.119.64-update.zip"
+    "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v137.119.64/ttdm-v136.118.64-to-v137.119.64-update.zip"
   },
   "target_full_manifest": {
     "name": "package-full-manifest.tsv",
@@ -24,16 +24,16 @@
   },
   "baseline_archives": {
     "client": {
-      "name": "听唐渡梦-v136.118.64-public-client.zip",
+      "name": "ttdm-v136.118.64-public-client.zip",
       "length": 440119471,
       "sha256": "476106AAC6EDC4F4E7AD32DB444CF0CE6DA8C31CB1520A61363BB97BD79C3E66",
-      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/听唐渡梦-v136.118.64-public-client.zip"
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/ttdm-v136.118.64-public-client.zip"
     },
     "server": {
-      "name": "听唐渡梦-v136.118.64-public-server.zip",
+      "name": "ttdm-v136.118.64-public-server.zip",
       "length": 19186203,
       "sha256": "B2FC9C43BB3EEA4324EE4BDB37F0A6D561D8A447DBE7F0F96799A7BBBD618AFA",
-      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/听唐渡梦-v136.118.64-public-server.zip"
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/ttdm-v136.118.64-public-server.zip"
     }
   },
   "local_complete_snapshots": [
@@ -65,7 +65,7 @@
     "history_retained": true
   },
   "deployment_tool": {
-    "name": "听唐渡梦-v137.119.64-deployment-tools.zip",
+    "name": "ttdm-v137.119.64-deployment-tools.zip",
     "bytes": 14674,
     "sha256": "65AFB06BAED8CFE34DE7E44F17BFDD7B98B884571902DD5B1D1CC60241E5D130",
     "script_sha256": "57618C6DB18C9CB0811E7680C3B708C8922CDF73D6590D1E73581C6196CC744C"
