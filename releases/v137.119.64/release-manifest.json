@@ -1,0 +1,140 @@
+{
+  "schema": "ttdm.release-manifest.v2",
+  "flow": "TTDM_RELEASE_FLOW_20261014_V2",
+  "version": "v137.119.64",
+  "baseline": "v136.118.64",
+  "component_delta": {
+    "server": 1,
+    "client": 1,
+    "database": 0
+  },
+  "source_commit": "d2e41ac5aba890bfac4823d05acd420723259eef",
+  "source_tree": "323cdfd70b77c2aba7c36a99acead6a42a1c165e",
+  "delivery_form": "INCREMENTAL_UPDATE_FROM_ACCEPTED_FORMAL_ROOT",
+  "incremental_archive": {
+    "name": "听唐渡梦-v136.118.64-to-v137.119.64-update.zip",
+    "bytes": 9932389,
+    "sha256": "FF6D0818B233A23142F30B3975E27B06516D6402AF7277E03AC821922C219B8F",
+    "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v137.119.64/听唐渡梦-v136.118.64-to-v137.119.64-update.zip"
+  },
+  "target_full_manifest": {
+    "name": "package-full-manifest.tsv",
+    "bytes": 90842,
+    "sha256": "50C1929CCE0006AF12B238B7690A0DE52BC630606F24747A96C858B98BD6543F"
+  },
+  "baseline_archives": {
+    "client": {
+      "name": "听唐渡梦-v136.118.64-public-client.zip",
+      "length": 440119471,
+      "sha256": "476106AAC6EDC4F4E7AD32DB444CF0CE6DA8C31CB1520A61363BB97BD79C3E66",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/听唐渡梦-v136.118.64-public-client.zip"
+    },
+    "server": {
+      "name": "听唐渡梦-v136.118.64-public-server.zip",
+      "length": 19186203,
+      "sha256": "B2FC9C43BB3EEA4324EE4BDB37F0A6D561D8A447DBE7F0F96799A7BBBD618AFA",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v136.118.64/听唐渡梦-v136.118.64-public-server.zip"
+    }
+  },
+  "local_complete_snapshots": [
+    {
+      "name": "听唐渡梦-v137.119.64-server.zip",
+      "bytes": 21305445,
+      "sha256": "94E14A34282BCEA3FF4CDBE42640B1E609887A7D22313DC29BFCC8E31E409C6D"
+    },
+    {
+      "name": "听唐渡梦-v137.119.64-client.zip",
+      "bytes": 442308319,
+      "sha256": "A6D40E48C87EFFE32056448FDAD2E1815A8879587F6BCFC80B660F229868EEF1"
+    }
+  ],
+  "complete_archives_uploaded_this_release": false,
+  "private_complete_source": {
+    "url": "https://github.com/timliu-joon/ttdm-source-private/releases/tag/v137.119.64",
+    "archive_commit": "11701546635042e882073362f4ebef6aadfc8c7f",
+    "archive_tree": "9c1400d5f93040b726ba7ba0ed789bf898692cdf",
+    "source_zip_sha256": "C01430E5581FE0B0A5AF2AF5300CD28C3BFDBB159CF6975EC2FCA7E2BAE23505"
+  },
+  "update_notice": {
+    "name": "note.txt",
+    "bytes": 4088,
+    "sha256": "9E61E88DCEBD4397222C134B68D1192E69EF1AE545298DF2FD4A744ACF579F07",
+    "version": "v137.119.64",
+    "date": "2026-10-14",
+    "encoding": "CP936_CRLF",
+    "history_retained": true
+  },
+  "deployment_tool": {
+    "name": "听唐渡梦-v137.119.64-deployment-tools.zip",
+    "bytes": 14674,
+    "sha256": "65AFB06BAED8CFE34DE7E44F17BFDD7B98B884571902DD5B1D1CC60241E5D130",
+    "script_sha256": "57618C6DB18C9CB0811E7680C3B708C8922CDF73D6590D1E73581C6196CC744C"
+  },
+  "native_patch_original": {
+    "name": "patch137.119.64.dt",
+    "bytes": 2016318,
+    "sha256": "3972932A4679C88131BD8E34B6628F371CA15D2D0FE9B66FD76278A9B3D086EA"
+  },
+  "network_default": "LOOPBACK_ONLY_WORKBUDDY_CONFIGURES_PUBLIC_ON_CLOUD",
+  "database_default": "PRESERVE_EXISTING_PLAYERS",
+  "one_time_reset_action_id": "INC-2026-10-14-02-ONE-TIME-PLAYER-RESET",
+  "cloud_current_full_client_and_native_updates_required": true,
+  "cloud_full_client_retention": {
+    "policy": "CURRENT_PLUS_IMMEDIATE_PREVIOUS_FULL_CLIENT_ONLY",
+    "current_full_client": null,
+    "immediate_previous_full_client_backup": null,
+    "cleanup_required_after_new_cloud_acceptance": true,
+    "scope": "older complete-client archives, extracted directories and redundant client backups on cloud only",
+    "status": "NOT_RUN",
+    "exact_delete_manifest": [],
+    "deleted_paths": [],
+    "performed_at": null,
+    "bytes_reclaimed": null,
+    "remaining_full_client_inventory": [],
+    "current_and_previous_protected": "NOT_RUN",
+    "required_native_update_chain_preserved": "NOT_RUN",
+    "player_data_business_backups_and_github_history_untouched": "NOT_RUN"
+  },
+  "acceptance": {
+    "version": "v137.119.64",
+    "source_commit": "d2e41ac5aba890bfac4823d05acd420723259eef",
+    "source_tree": "323cdfd70b77c2aba7c36a99acead6a42a1c165e",
+    "formal_root_acceptance": {
+      "status": "PASS",
+      "operator": "user",
+      "actual_reply": "1234全通过！",
+      "receipt_sha256": "3B804972AA5C8469CEB4F13B6A9CDC97BAB8F8069DC19E7EC6FA0CBC0A77D5E8"
+    },
+    "isolate_ui": "NOT_RERUN_USER_REASSIGNED_VALIDATION_TO_FORMAL_ROOT",
+    "formal_direct_origin": {
+      "files": 717,
+      "byte_exact_formal_files": 715,
+      "exceptions": [
+        "sealed_zero_player_seed",
+        "public_default_settings"
+      ]
+    },
+    "incremental_reconstruction": {
+      "archive_content_hashes": "PASS",
+      "baseline_plus_delta_equals_full_target": "PASS",
+      "database_in_payload": false,
+      "user_settings_in_payload": false,
+      "credentials_in_payload": false
+    },
+    "product_independent_review": {
+      "result": "ACCEPT_STATIC_PUBLIC_DEPLOYMENT_CANDIDATE",
+      "sha256": "450D720E885CBF6AA37F91ECEB4C5336B786C077BBB62D1CBE981523CBACBA8B"
+    },
+    "deployment_tool_review": {
+      "result": "ACCEPT_DEPLOYMENT_TOOL_FIX_INCREMENT",
+      "sha256": "B822E845A03343C7E2088B5F6F0E5ABE269654E115AF8DCFDC76B8A050492732"
+    },
+    "cloud_deployment": "NOT_RUN",
+    "this_native_patch_actual_apply": "NOT_RUN",
+    "external_pc_business": "NOT_RUN",
+    "cloud_cleanup": "NOT_RUN",
+    "cloud_one_time_reset": "PENDING_REAL_EXECUTION_RECEIPT"
+  },
+  "release_url": "https://github.com/timliu-joon/ttdm-releases/releases/tag/v137.119.64",
+  "first_unfinished": "WorkBuddy重建新冷候选、配置真实公网环境、部署验证新完整客户端及旧客户端原生更新，并完成两版保留清理；用户另机实测。"
+}

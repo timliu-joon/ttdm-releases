@@ -1,0 +1,40 @@
+{
+  "version": "v137.119.64",
+  "source_commit": "d2e41ac5aba890bfac4823d05acd420723259eef",
+  "source_tree": "323cdfd70b77c2aba7c36a99acead6a42a1c165e",
+  "formal_root_acceptance": {
+    "status": "PASS",
+    "operator": "user",
+    "actual_reply": "1234全通过！",
+    "receipt_sha256": "3B804972AA5C8469CEB4F13B6A9CDC97BAB8F8069DC19E7EC6FA0CBC0A77D5E8"
+  },
+  "isolate_ui": "NOT_RERUN_USER_REASSIGNED_VALIDATION_TO_FORMAL_ROOT",
+  "formal_direct_origin": {
+    "files": 717,
+    "byte_exact_formal_files": 715,
+    "exceptions": [
+      "sealed_zero_player_seed",
+      "public_default_settings"
+    ]
+  },
+  "incremental_reconstruction": {
+    "archive_content_hashes": "PASS",
+    "baseline_plus_delta_equals_full_target": "PASS",
+    "database_in_payload": false,
+    "user_settings_in_payload": false,
+    "credentials_in_payload": false
+  },
+  "product_independent_review": {
+    "result": "ACCEPT_STATIC_PUBLIC_DEPLOYMENT_CANDIDATE",
+    "sha256": "450D720E885CBF6AA37F91ECEB4C5336B786C077BBB62D1CBE981523CBACBA8B"
+  },
+  "deployment_tool_review": {
+    "result": "ACCEPT_DEPLOYMENT_TOOL_FIX_INCREMENT",
+    "sha256": "B822E845A03343C7E2088B5F6F0E5ABE269654E115AF8DCFDC76B8A050492732"
+  },
+  "cloud_deployment": "NOT_RUN",
+  "this_native_patch_actual_apply": "NOT_RUN",
+  "external_pc_business": "NOT_RUN",
+  "cloud_cleanup": "NOT_RUN",
+  "cloud_one_time_reset": "PENDING_REAL_EXECUTION_RECEIPT"
+}

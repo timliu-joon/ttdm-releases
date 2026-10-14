@@ -1,0 +1,140 @@
+{
+  "schema": "ttdm.workbuddy.deployment-acceptance.v2",
+  "flow": "TTDM_RELEASE_FLOW_20261014_V2",
+  "release_id": "v137.119.64",
+  "recorded_at": null,
+  "operator": "WorkBuddy",
+  "baseline_release": "v136.118.64",
+  "incremental_archive_sha256": "FF6D0818B233A23142F30B3975E27B06516D6402AF7277E03AC821922C219B8F",
+  "target_manifest_sha256": "50C1929CCE0006AF12B238B7690A0DE52BC630606F24747A96C858B98BD6543F",
+  "source_commit": "d2e41ac5aba890bfac4823d05acd420723259eef",
+  "source_tree": "323cdfd70b77c2aba7c36a99acead6a42a1c165e",
+  "local_formal_acceptance_receipt_sha256": null,
+  "fresh_reconstruction": {
+    "status": "NOT_RUN",
+    "root": null,
+    "complete_target_manifest_match": "NOT_RUN"
+  },
+  "environment": {
+    "public_address": null,
+    "ports": {
+      "reception": null,
+      "login": null,
+      "world": null,
+      "update_http": null
+    },
+    "projector_sha256": null,
+    "repack_receipt_sha256": null,
+    "allowed_changed_files": [],
+    "business_bytes_unchanged": "NOT_RUN",
+    "secret_values_in_receipt": false
+  },
+  "cold_transition": {
+    "old_process_identity": [],
+    "old_root": null,
+    "new_root": null,
+    "stop_receipt": null,
+    "private_data_backup_locator": null,
+    "backup_sha256": null,
+    "database_preserved": "NOT_RUN"
+  },
+  "player_reset": {
+    "default": "FORBIDDEN_WITHOUT_NEW_EXPLICIT_USER_AUTHORIZATION",
+    "action_id": null,
+    "authorization_reference": null,
+    "previous_execution_checked": "NOT_RUN",
+    "already_executed": null,
+    "status": "NOT_RUN",
+    "cold_backup_receipt": null,
+    "seed_sha256": null,
+    "zero_counts": null,
+    "integrity_check": null,
+    "foreign_key_check_rows": null
+  },
+  "cloud_full_client": {
+    "version": null,
+    "download_url": null,
+    "archive_bytes": null,
+    "archive_sha256": null,
+    "file_manifest_sha256": null,
+    "download_readback": "NOT_RUN",
+    "zero_player_state_scan": "NOT_RUN"
+  },
+  "native_update": {
+    "source": "CLOUD_SERVER",
+    "feed_url": null,
+    "environment_patch_identities": [],
+    "supported_baselines": [],
+    "old_client_actual_apply": "NOT_RUN",
+    "second_start_no_repeat": "NOT_RUN"
+  },
+  "update_notice": {
+    "version": null,
+    "date": null,
+    "sha256": null,
+    "full_client_feed_patch_equal": "NOT_RUN",
+    "latest_first_history_preserved": "NOT_RUN",
+    "native_ui_visible": "NOT_RUN"
+  },
+  "resolution": {
+    "default": [
+      1024,
+      768
+    ],
+    "options": [
+      [
+        800,
+        600
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1366,
+        800
+      ]
+    ],
+    "saved_player_choice_preserved": "NOT_RUN",
+    "settings_title": "听唐渡梦"
+  },
+  "business_checks": {
+    "fresh_client_external_pc_register_login_enter": "NOT_RUN",
+    "post_registration_mouse_login": "NOT_RUN",
+    "post_registration_enter_login": "NOT_RUN",
+    "client_reopen_without_server_restart": "NOT_RUN",
+    "registration_success_no_connecting_overlay": "NOT_RUN",
+    "registration_rejection_preserves_form": "NOT_RUN",
+    "idle_register_client_does_not_block_another": "NOT_RUN",
+    "two_accounts_simultaneous": "NOT_RUN",
+    "save_relogin_restart": "NOT_RUN",
+    "old_client_auto_update_login": "NOT_RUN",
+    "window_title_same_version": "NOT_RUN",
+    "user_agreement_empty": "NOT_RUN"
+  },
+  "promotion": {
+    "player_manifest_switched_atomically": false,
+    "full_client_and_native_feed_same_version": "NOT_RUN"
+  },
+  "client_retention": {
+    "policy": "CURRENT_PLUS_IMMEDIATE_PREVIOUS_FULL_CLIENT_ONLY",
+    "current_full_client": null,
+    "immediate_previous_full_client_backup": null,
+    "cleanup_required_after_new_cloud_acceptance": true,
+    "scope": "older complete-client archives, extracted directories and redundant client backups on cloud only",
+    "status": "NOT_RUN",
+    "exact_delete_manifest": [],
+    "deleted_paths": [],
+    "performed_at": null,
+    "bytes_reclaimed": null,
+    "remaining_full_client_inventory": [],
+    "current_and_previous_protected": "NOT_RUN",
+    "required_native_update_chain_preserved": "NOT_RUN",
+    "player_data_business_backups_and_github_history_untouched": "NOT_RUN"
+  },
+  "final_status": "NOT_RUN",
+  "failures": [],
+  "evidence": [],
+  "first_unfinished": null,
+  "next_owner": "WorkBuddy"
+}
