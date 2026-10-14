@@ -1,0 +1,248 @@
+{
+  "schema": "ttdm.incremental-release.public.v3",
+  "status": "PUBLIC_DELIVERY_PREPARED_NOT_PUBLISHED",
+  "version": "v138.120.64",
+  "baseline": "v137.119.64",
+  "source_commit": "bf54c61afa9c09d5459615a9ec13925416543646",
+  "source_tree": "e243dbf24f94488ffec7caf25e26db9d3d56f509",
+  "origin": "Directly packaged from the accepted cold formal root. Complete snapshots remain local; public delivery contains differences only.",
+  "archive": {
+    "name": "ttdm-v137.119.64-to-v138.120.64-update.zip",
+    "bytes": 30107613,
+    "sha256": "E231B6D412440338B827049BE8B0913C0F7B008BB3865C2EE683890B0020012A",
+    "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/ttdm-v137.119.64-to-v138.120.64-update.zip"
+  },
+  "payload_root": "payload",
+  "required_empty_directories": [
+    "服务端/logs/"
+  ],
+  "entries": [
+    {
+      "path": "客户端/听唐渡梦/bin/TtdmLayoutAdapter.dll",
+      "before": {
+        "bytes": 1458176,
+        "sha256": "35C0923AD5A762586B7718F5F5EEC7ABB72C38562839E8167824E0B340E66D6B"
+      },
+      "after": {
+        "bytes": 1461760,
+        "sha256": "7D1E6754C65DDF67ADA0F9816A0E4C7CA4A033FA2B09FAF373B9A720CA5A20A3"
+      }
+    },
+    {
+      "path": "客户端/听唐渡梦/data/note.txt",
+      "before": {
+        "bytes": 4088,
+        "sha256": "9E61E88DCEBD4397222C134B68D1192E69EF1AE545298DF2FD4A744ACF579F07"
+      },
+      "after": {
+        "bytes": 4427,
+        "sha256": "6FD7259DD8EC4E8B0582082848155A1F2E1F34D1F2B05C0958B4F5FA4ECCEA5A"
+      }
+    },
+    {
+      "path": "客户端/听唐渡梦/data/setting.wdf",
+      "before": {
+        "bytes": 15386356,
+        "sha256": "6A2A4463B9B457C98EE3A6F9036478C9FD304B1820F40F5DE0F857204CAD7141"
+      },
+      "after": {
+        "bytes": 15507865,
+        "sha256": "45DF1A1DD61E0D4B65DC6BA9A471E5D979793E34C59306B38FC3E931252811CB"
+      }
+    },
+    {
+      "path": "客户端/听唐渡梦/data/update.ini",
+      "before": {
+        "bytes": 192,
+        "sha256": "2B0D1D0A29A6D0DF5C824848E0C16101A9463855F2E50FF3B4836170AACD1DFE"
+      },
+      "after": {
+        "bytes": 192,
+        "sha256": "D8B5A257FCB1B2D2B2088639D5D4A8798821A14C71CCF9A303B47A6848A3558B"
+      }
+    },
+    {
+      "path": "客户端/听唐渡梦/ttdm-runtime-title-identity.json",
+      "before": {
+        "bytes": 180,
+        "sha256": "C76DD728E8E500657B45375849DC50E8FC786B71BFA9B5CC9085DC80C2628CCD"
+      },
+      "after": {
+        "bytes": 180,
+        "sha256": "FD517D374E341332BDEB4E66332212B52F63323541C18292C1C71D8A3D244D79"
+      }
+    },
+    {
+      "path": "服务端/bin/TtdmServer.exe",
+      "before": {
+        "bytes": 32586240,
+        "sha256": "A8CAD7CFD7B354A8B794F63979B46B6C45478514E5FA428BAEBBE9F82863AB20"
+      },
+      "after": {
+        "bytes": 32586752,
+        "sha256": "10B2E38D8B5ACA69EB667BBF3B55C6BE53457C01604F074EDF665B77A0FFE588"
+      }
+    },
+    {
+      "path": "服务端/config/server.template.json",
+      "before": {
+        "bytes": 762,
+        "sha256": "44C1310D6DCE92569918DD251C16F8D6A5E8D2F672DF37D911798F41E8E434DC"
+      },
+      "after": {
+        "bytes": 739,
+        "sha256": "AF7DC925C49E74B0863B78C15B7896886CB668739D73BB9672857249A161CAD5"
+      }
+    },
+    {
+      "path": "服务端/resources/setting.wdf",
+      "before": {
+        "bytes": 15386356,
+        "sha256": "6A2A4463B9B457C98EE3A6F9036478C9FD304B1820F40F5DE0F857204CAD7141"
+      },
+      "after": {
+        "bytes": 15507865,
+        "sha256": "45DF1A1DD61E0D4B65DC6BA9A471E5D979793E34C59306B38FC3E931252811CB"
+      }
+    },
+    {
+      "path": "服务端/runtime-manifest.template.json",
+      "before": {
+        "bytes": 796,
+        "sha256": "1D24D183D727A1628CF5672E034841D5B6B9A84EF85D3F440405B61827284726"
+      },
+      "after": {
+        "bytes": 780,
+        "sha256": "688282B33BAE54D77AB837B60CE430AC01F734EF3B839A6EDDC3F0F807DE866D"
+      }
+    },
+    {
+      "path": "服务端/update-feed/feed-manifest.tsv",
+      "before": {
+        "bytes": 470,
+        "sha256": "033567F9900EAD94635F98E18C4520BBFBD9EE6AC5CA32A42D6D3EB78694EB13"
+      },
+      "after": {
+        "bytes": 570,
+        "sha256": "6EF6EE9158DD0AD8807FA17B557E57825C23815813D5AA71E5B6FC2B4EA92035"
+      }
+    },
+    {
+      "path": "服务端/update-feed/stable/note.txt",
+      "before": {
+        "bytes": 4088,
+        "sha256": "9E61E88DCEBD4397222C134B68D1192E69EF1AE545298DF2FD4A744ACF579F07"
+      },
+      "after": {
+        "bytes": 4427,
+        "sha256": "6FD7259DD8EC4E8B0582082848155A1F2E1F34D1F2B05C0958B4F5FA4ECCEA5A"
+      }
+    },
+    {
+      "path": "服务端/update-feed/stable/patch138.120.64.dt",
+      "before": null,
+      "after": {
+        "bytes": 2093523,
+        "sha256": "972DB6FB50680FF00F075DCFEA1361E3952FDE2D06F7C7EA30E3907E5A6EEEBE"
+      }
+    },
+    {
+      "path": "服务端/update-feed/stable/patchlist.txt",
+      "before": {
+        "bytes": 122,
+        "sha256": "66E0E690E03AF5FA1283D73396C24A01755166713AC871A6C83E580A58BB5CC9"
+      },
+      "after": {
+        "bytes": 183,
+        "sha256": "3FECC2460BEEC8F61F0A55BAD6BA0C78A04E074D448315CA57BBBEC9FDA5779B"
+      }
+    },
+    {
+      "path": "服务端/听唐渡梦服务端.exe",
+      "before": {
+        "bytes": 5499392,
+        "sha256": "DF71C80078CB50040F4507E0DA905CFAFA093DF26AC24ACB5992F123B23FF038"
+      },
+      "after": {
+        "bytes": 5499392,
+        "sha256": "A8E18DA3E983BC0B81D71F78E01083BFB574F07C723E142C182D349FF7D399C3"
+      }
+    }
+  ],
+  "removed_paths": [],
+  "changed_file_count": 14,
+  "baseline_full_file_count": 717,
+  "target_full_file_count": 718,
+  "baseline_publication": {
+    "release_url": "https://github.com/timliu-joon/ttdm-releases/releases/tag/v137.119.64",
+    "target_manifest": {
+      "name": "package-full-manifest.tsv",
+      "bytes": 90842,
+      "sha256": "50C1929CCE0006AF12B238B7690A0DE52BC630606F24747A96C858B98BD6543F",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v137.119.64/package-full-manifest.tsv"
+    },
+    "complete_archives_uploaded": false,
+    "published_delta_from_v136": {
+      "name": "ttdm-v136.118.64-to-v137.119.64-update.zip",
+      "bytes": 9932389,
+      "sha256": "FF6D0818B233A23142F30B3975E27B06516D6402AF7277E03AC821922C219B8F",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v137.119.64/ttdm-v136.118.64-to-v137.119.64-update.zip"
+    },
+    "baseline_statement": "v137 has no public complete client/server ZIP. Reconstruct from the verified existing v137 cloud product or other accepted local byte source; do not fabricate a URL."
+  },
+  "target_full_manifests": {
+    "package": {
+      "name": "package-full-manifest.tsv",
+      "bytes": 90248,
+      "sha256": "C78692AFD5F16DF09532F20AF1B39C9216035367CC3C982AE5978A4338A72128",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/package-full-manifest.tsv"
+    },
+    "client": {
+      "name": "client-full-manifest.tsv",
+      "bytes": 72394,
+      "sha256": "9171D9DCCB0AFD1802064D80C0FE1D35DD95601F5B89AA7B605580A25C072F2D",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/client-full-manifest.tsv"
+    },
+    "server": {
+      "name": "server-full-manifest.tsv",
+      "bytes": 1535,
+      "sha256": "FEB1A1E6EC75575C391BA89CE78A62166E7E156AD2EE98BABB2ABBBFEF82C099",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/server-full-manifest.tsv"
+    }
+  },
+  "target_local_complete_snapshots": {
+    "client": {
+      "name": "听唐渡梦-v138.120.64-client.zip",
+      "bytes": 442383877,
+      "sha256": "F37A38B4290FAFB09CB22A7B705C19384BBFDBE1CE6203FBBE36E861F93A60B1",
+      "publication": "LOCAL_ONLY_NOT_PUBLIC_DOWNLOAD",
+      "url": null
+    },
+    "server": {
+      "name": "听唐渡梦-v138.120.64-server.zip",
+      "bytes": 23472200,
+      "sha256": "9A345B5848A14BE047A5410C09E3A1616CAEE3608182E7D4566AC78A5695E4AC",
+      "publication": "LOCAL_ONLY_NOT_PUBLIC_DOWNLOAD",
+      "url": null
+    }
+  },
+  "validation": {
+    "baseline_tree_matches_published_manifest": "PASS",
+    "target_tree_matches_target_manifest": "PASS",
+    "archive_content_hashes": "PASS",
+    "baseline_plus_delta_equals_full_target": "PASS",
+    "required_empty_directories_in_archive_and_target": "PASS",
+    "database_in_payload": false,
+    "user_settings_in_payload": false,
+    "active_runtime_config_in_payload": false,
+    "credentials_in_payload": false,
+    "v137_complete_archive_url_fabricated": false
+  },
+  "database_policy": "PRESERVE_EXISTING_CLOUD_PLAYERS; INC02_ALREADY_EXECUTED_DO_NOT_REPLAY",
+  "network_default": "LOOPBACK_ONLY_WORKBUDDY_CONFIGURES_PUBLIC_ON_CLOUD",
+  "github_delivery_scope": "INCREMENTAL_PLUS_METADATA_AND_REVIEWED_DEPLOYMENT_TOOL_ONLY",
+  "runtime_started": false,
+  "cloud_contacted": false,
+  "github_contacted_by_this_preparation": false,
+  "first_unfinished": "Root publishes these exact prepared public assets and performs download readback; then WorkBuddy deploys on a fresh cloud candidate and records real results."
+}

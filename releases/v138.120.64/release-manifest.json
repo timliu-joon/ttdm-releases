@@ -1,0 +1,208 @@
+{
+  "schema": "ttdm.release-manifest.v3",
+  "flow": "TTDM_RELEASE_FLOW_20261014_V2",
+  "status": "PUBLIC_DELIVERY_PREPARED_NOT_PUBLISHED",
+  "version": "v138.120.64",
+  "baseline": "v137.119.64",
+  "release_url": "https://github.com/timliu-joon/ttdm-releases/releases/tag/v138.120.64",
+  "source_commit": "bf54c61afa9c09d5459615a9ec13925416543646",
+  "source_tree": "e243dbf24f94488ffec7caf25e26db9d3d56f509",
+  "delivery_form": "PUBLIC_INCREMENTAL_PLUS_METADATA_AND_TOOL_PRIVATE_COMPLETE_SOURCE",
+  "incremental_archive": {
+    "name": "ttdm-v137.119.64-to-v138.120.64-update.zip",
+    "bytes": 30107613,
+    "sha256": "E231B6D412440338B827049BE8B0913C0F7B008BB3865C2EE683890B0020012A",
+    "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/ttdm-v137.119.64-to-v138.120.64-update.zip"
+  },
+  "complete_target_manifests": {
+    "package": {
+      "name": "package-full-manifest.tsv",
+      "bytes": 90248,
+      "sha256": "C78692AFD5F16DF09532F20AF1B39C9216035367CC3C982AE5978A4338A72128",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/package-full-manifest.tsv"
+    },
+    "client": {
+      "name": "client-full-manifest.tsv",
+      "bytes": 72394,
+      "sha256": "9171D9DCCB0AFD1802064D80C0FE1D35DD95601F5B89AA7B605580A25C072F2D",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/client-full-manifest.tsv"
+    },
+    "server": {
+      "name": "server-full-manifest.tsv",
+      "bytes": 1535,
+      "sha256": "FEB1A1E6EC75575C391BA89CE78A62166E7E156AD2EE98BABB2ABBBFEF82C099",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/server-full-manifest.tsv"
+    }
+  },
+  "local_complete_snapshots": {
+    "client": {
+      "name": "听唐渡梦-v138.120.64-client.zip",
+      "bytes": 442383877,
+      "sha256": "F37A38B4290FAFB09CB22A7B705C19384BBFDBE1CE6203FBBE36E861F93A60B1",
+      "publication": "LOCAL_ONLY_NOT_PUBLIC_DOWNLOAD",
+      "url": null
+    },
+    "server": {
+      "name": "听唐渡梦-v138.120.64-server.zip",
+      "bytes": 23472200,
+      "sha256": "9A345B5848A14BE047A5410C09E3A1616CAEE3608182E7D4566AC78A5695E4AC",
+      "publication": "LOCAL_ONLY_NOT_PUBLIC_DOWNLOAD",
+      "url": null
+    }
+  },
+  "public_complete_archive_urls": {
+    "client": null,
+    "server": null
+  },
+  "baseline_publication": {
+    "version": "v137.119.64",
+    "release_url": "https://github.com/timliu-joon/ttdm-releases/releases/tag/v137.119.64",
+    "complete_archives_uploaded": false,
+    "complete_archive_url": null
+  },
+  "private_complete_source": {
+    "repository": "timliu-joon/ttdm-source-private",
+    "release_url": "https://github.com/timliu-joon/ttdm-source-private/releases/tag/v138.120.64",
+    "source_commit": "bf54c61afa9c09d5459615a9ec13925416543646",
+    "source_tree": "e243dbf24f94488ffec7caf25e26db9d3d56f509",
+    "archive_commit": "a460abfeb4719c559f041e4af184135813540859",
+    "archive_tree": "e3e0a5c5734df9894c1d3c8b54be20b5fa3d5d6f",
+    "assets": {
+      "source_zip": {
+        "name": "ttdm-source-v138.120.64.zip",
+        "bytes": 11200900,
+        "sha256": "4ABFE951C8D16C880E47D519BE2B5C98F8D8EF9A7D0F8C71D6BC04A1B75600CE",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/ttdm-source-v138.120.64.zip"
+      },
+      "source_manifest": {
+        "name": "ttdm-source-v138.120.64.manifest.sha256",
+        "bytes": 179074,
+        "sha256": "E5F9A5F7404270512C191EAC5E7AD0F5D684B734C77CC8A5E9AFDE9656601121",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/ttdm-source-v138.120.64.manifest.sha256"
+      },
+      "source_index": {
+        "name": "ttdm-source-v138.120.64.index.json",
+        "bytes": 4513,
+        "sha256": "5F5360B6D6FB906D928313D48A079A1905645E54897CB48141ACC0AB7238CDD9",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/ttdm-source-v138.120.64.index.json"
+      },
+      "upload_checksums": {
+        "name": "UPLOAD-CHECKSUMS.sha256",
+        "bytes": 301,
+        "sha256": "DB889A4922A50084F67231F85CAA80E097160864F9E7345EC7F95B915C9E489B",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/UPLOAD-CHECKSUMS.sha256"
+      }
+    },
+    "receipt": {
+      "name": "191-FINAL-SOURCE-RELEASE.json",
+      "bytes": 6021,
+      "sha256": "889A6F2D1DED0CEF198EA4AE4C821E8361FFCC09C4780253A28776A5B68A2C1F"
+    }
+  },
+  "local_formal_acceptance": {
+    "name": "77-FORMAL-NATIVE-FINAL.json",
+    "bytes": 9499,
+    "sha256": "E3042D1D611E7672287DBEA74E1EA68A12ECAFD5680A8D3DBAED433DD3630C64",
+    "recorded_status": "PASS_AFFECTED_FORMAL_NATIVE_UI"
+  },
+  "deployment_tool": {
+    "script": {
+      "name": "Configure-Deployment.py",
+      "bytes": 46208,
+      "sha256": "32B368ABD09159BC35DA4826E314FC47982255D42C43D6445F232FA6DB1934CA"
+    },
+    "instructions": {
+      "name": "Configure-Deployment-README.md",
+      "bytes": 2662,
+      "sha256": "39E1B27A9258A034121E0F4929C5532763B4AACBC2D0C3F27C3A515428680581"
+    },
+    "independent_review_result": "ACCEPT_BOUNDED_IMMUTABLE_HISTORY_TEST_EVIDENCE"
+  },
+  "network_default": "LOOPBACK_ONLY_WORKBUDDY_CONFIGURES_PUBLIC_ON_CLOUD",
+  "database_default": "PRESERVE_EXISTING_CLOUD_PLAYERS",
+  "one_time_inc02_reset": "ALREADY_EXECUTED_DO_NOT_REPLAY",
+  "cloud_candidate_server_logs": "MUST_BE_EMPTY_BEFORE_START",
+  "cloud_previous_stable_root": "REQUIRED_FOR_BYTE_EXACT_PATCH136_AND_PATCH137_REUSE",
+  "environment_changes": "PATCH138_AND_DERIVED_CONFIG_ONLY",
+  "cloud_full_client_retention": "CURRENT_V138_PLUS_IMMEDIATE_PREVIOUS_V137",
+  "required_native_update_chain": "PRESERVE",
+  "player_update_source": "CLOUD_SERVER_FEED_NOT_GITHUB",
+  "public_assets": [
+    {
+      "name": "ttdm-v137.119.64-to-v138.120.64-update.zip",
+      "bytes": 30107613,
+      "sha256": "E231B6D412440338B827049BE8B0913C0F7B008BB3865C2EE683890B0020012A",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/ttdm-v137.119.64-to-v138.120.64-update.zip"
+    },
+    {
+      "name": "package-full-manifest.tsv",
+      "bytes": 90248,
+      "sha256": "C78692AFD5F16DF09532F20AF1B39C9216035367CC3C982AE5978A4338A72128",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/package-full-manifest.tsv"
+    },
+    {
+      "name": "client-full-manifest.tsv",
+      "bytes": 72394,
+      "sha256": "9171D9DCCB0AFD1802064D80C0FE1D35DD95601F5B89AA7B605580A25C072F2D",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/client-full-manifest.tsv"
+    },
+    {
+      "name": "server-full-manifest.tsv",
+      "bytes": 1535,
+      "sha256": "FEB1A1E6EC75575C391BA89CE78A62166E7E156AD2EE98BABB2ABBBFEF82C099",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/server-full-manifest.tsv"
+    },
+    {
+      "name": "update-manifest.json",
+      "bytes": 9120,
+      "sha256": "09299EA70B42BE85A7EC350B1E00DFEB12F64127772C9210E88E3D51D5EE0D27",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/update-manifest.json"
+    },
+    {
+      "name": "release-notes.md",
+      "bytes": 465,
+      "sha256": "51EEFE51D899A2C81486FCD395EEA8FF3542552EF1C0B2CE7FB1FFB8532FBCA4",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/release-notes.md"
+    },
+    {
+      "name": "note.txt",
+      "bytes": 4427,
+      "sha256": "6FD7259DD8EC4E8B0582082848155A1F2E1F34D1F2B05C0958B4F5FA4ECCEA5A",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/note.txt"
+    },
+    {
+      "name": "WORKBUDDY-DEPLOY.md",
+      "bytes": 3810,
+      "sha256": "A725414DCD8783D6F23B80C9DBF820D361AAF67B0668BB0D492E2F2D7BBE808D",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/WORKBUDDY-DEPLOY.md"
+    },
+    {
+      "name": "CURRENT_RELEASE.md",
+      "bytes": 894,
+      "sha256": "F7DC54AFD1457DF0E4108D3DAF344907E8FC6236B282AE4E7D20897DB78C114B",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/CURRENT_RELEASE.md"
+    },
+    {
+      "name": "VERSION-VERIFICATION-SUMMARY.json",
+      "bytes": 6862,
+      "sha256": "F5133D8B66CAA21A7F1323AAE0FEE6A5F083931357C38DF8A9B69F289D88D92D",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/VERSION-VERIFICATION-SUMMARY.json"
+    },
+    {
+      "name": "Configure-Deployment.py",
+      "bytes": 46208,
+      "sha256": "32B368ABD09159BC35DA4826E314FC47982255D42C43D6445F232FA6DB1934CA",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/Configure-Deployment.py"
+    },
+    {
+      "name": "Configure-Deployment-README.md",
+      "bytes": 2662,
+      "sha256": "39E1B27A9258A034121E0F4929C5532763B4AACBC2D0C3F27C3A515428680581",
+      "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/Configure-Deployment-README.md"
+    }
+  ],
+  "public_github_publication": "NOT_RUN",
+  "cloud_deployment": "NOT_RUN",
+  "external_player_validation": "NOT_RUN",
+  "first_unfinished": "Root reviews this prepared directory, publishes only its approved public assets, and verifies download bytes/SHA-256 before WorkBuddy deployment."
+}

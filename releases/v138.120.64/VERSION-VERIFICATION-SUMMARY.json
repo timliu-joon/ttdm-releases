@@ -1,0 +1,163 @@
+{
+  "schema": "ttdm.same-version-verification-summary.v1",
+  "status": "LOCAL_INPUTS_VERIFIED_PUBLIC_DELIVERY_PREPARED_NOT_PUBLISHED",
+  "version": "v138.120.64",
+  "baseline": "v137.119.64",
+  "source": {
+    "commit": "bf54c61afa9c09d5459615a9ec13925416543646",
+    "tree": "e243dbf24f94488ffec7caf25e26db9d3d56f509"
+  },
+  "local_formal_acceptance": {
+    "name": "77-FORMAL-NATIVE-FINAL.json",
+    "bytes": 9499,
+    "sha256": "E3042D1D611E7672287DBEA74E1EA68A12ECAFD5680A8D3DBAED433DD3630C64",
+    "recorded_status": "PASS_AFFECTED_FORMAL_NATIVE_UI"
+  },
+  "full_snapshot_candidate": {
+    "name": "90-PUBLIC-COMPLETE-CANDIDATE.json",
+    "bytes": 4932,
+    "sha256": "CA140D7FEC81DC57E676A67FE8723AD67BFF5C550007D65AF47CE7E21854E0BA",
+    "recorded_status": "LOCAL_FULL_SNAPSHOT_READY_INCREMENTAL_PENDING",
+    "manifests": {
+      "package": {
+        "name": "package-full-manifest.tsv",
+        "bytes": 90248,
+        "sha256": "C78692AFD5F16DF09532F20AF1B39C9216035367CC3C982AE5978A4338A72128",
+        "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/package-full-manifest.tsv"
+      },
+      "client": {
+        "name": "client-full-manifest.tsv",
+        "bytes": 72394,
+        "sha256": "9171D9DCCB0AFD1802064D80C0FE1D35DD95601F5B89AA7B605580A25C072F2D",
+        "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/client-full-manifest.tsv"
+      },
+      "server": {
+        "name": "server-full-manifest.tsv",
+        "bytes": 1535,
+        "sha256": "FEB1A1E6EC75575C391BA89CE78A62166E7E156AD2EE98BABB2ABBBFEF82C099",
+        "url": "https://github.com/timliu-joon/ttdm-releases/releases/download/v138.120.64/server-full-manifest.tsv"
+      }
+    },
+    "local_complete_snapshots": {
+      "client": {
+        "name": "听唐渡梦-v138.120.64-client.zip",
+        "bytes": 442383877,
+        "sha256": "F37A38B4290FAFB09CB22A7B705C19384BBFDBE1CE6203FBBE36E861F93A60B1",
+        "publication": "LOCAL_ONLY_NOT_PUBLIC_DOWNLOAD",
+        "url": null
+      },
+      "server": {
+        "name": "听唐渡梦-v138.120.64-server.zip",
+        "bytes": 23472200,
+        "sha256": "9A345B5848A14BE047A5410C09E3A1616CAEE3608182E7D4566AC78A5695E4AC",
+        "publication": "LOCAL_ONLY_NOT_PUBLIC_DOWNLOAD",
+        "url": null
+      }
+    },
+    "server_logs_empty": true
+  },
+  "incremental": {
+    "name": "95-INCREMENTAL-RESULT.json",
+    "bytes": 1373,
+    "sha256": "88839E22A4F4EA3EECDC01582A6627B82C2EC0BDEA3D030F72AC5DCE83E93B47",
+    "recorded_status": "INCREMENTAL_COMPLETE_RECONSTRUCTION_PASS",
+    "archive": {
+      "name": "ttdm-v137.119.64-to-v138.120.64-update.zip",
+      "bytes": 30107613,
+      "sha256": "E231B6D412440338B827049BE8B0913C0F7B008BB3865C2EE683890B0020012A"
+    },
+    "validation": {
+      "baseline_tree_matches_published_manifest": "PASS",
+      "target_tree_matches_target_manifest": "PASS",
+      "archive_content_hashes": "PASS",
+      "baseline_plus_delta_equals_full_target": "PASS",
+      "required_empty_directories_in_archive_and_target": "PASS",
+      "database_in_payload": false,
+      "user_settings_in_payload": false,
+      "active_runtime_config_in_payload": false,
+      "credentials_in_payload": false,
+      "v137_complete_archive_url_fabricated": false
+    }
+  },
+  "private_complete_source": {
+    "release_url": "https://github.com/timliu-joon/ttdm-source-private/releases/tag/v138.120.64",
+    "source_commit": "bf54c61afa9c09d5459615a9ec13925416543646",
+    "source_tree": "e243dbf24f94488ffec7caf25e26db9d3d56f509",
+    "archive_commit": "a460abfeb4719c559f041e4af184135813540859",
+    "archive_tree": "e3e0a5c5734df9894c1d3c8b54be20b5fa3d5d6f",
+    "assets": {
+      "source_zip": {
+        "name": "ttdm-source-v138.120.64.zip",
+        "bytes": 11200900,
+        "sha256": "4ABFE951C8D16C880E47D519BE2B5C98F8D8EF9A7D0F8C71D6BC04A1B75600CE",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/ttdm-source-v138.120.64.zip"
+      },
+      "source_manifest": {
+        "name": "ttdm-source-v138.120.64.manifest.sha256",
+        "bytes": 179074,
+        "sha256": "E5F9A5F7404270512C191EAC5E7AD0F5D684B734C77CC8A5E9AFDE9656601121",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/ttdm-source-v138.120.64.manifest.sha256"
+      },
+      "source_index": {
+        "name": "ttdm-source-v138.120.64.index.json",
+        "bytes": 4513,
+        "sha256": "5F5360B6D6FB906D928313D48A079A1905645E54897CB48141ACC0AB7238CDD9",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/ttdm-source-v138.120.64.index.json"
+      },
+      "upload_checksums": {
+        "name": "UPLOAD-CHECKSUMS.sha256",
+        "bytes": 301,
+        "sha256": "DB889A4922A50084F67231F85CAA80E097160864F9E7345EC7F95B915C9E489B",
+        "url": "https://github.com/timliu-joon/ttdm-source-private/releases/download/untagged-838ccae3ed70f85cb62f/UPLOAD-CHECKSUMS.sha256"
+      }
+    },
+    "receipt": {
+      "name": "191-FINAL-SOURCE-RELEASE.json",
+      "bytes": 6021,
+      "sha256": "889A6F2D1DED0CEF198EA4AE4C821E8361FFCC09C4780253A28776A5B68A2C1F"
+    }
+  },
+  "update_notice": {
+    "date": "2026-10-15",
+    "version": "v138.120.64",
+    "server_note": {
+      "name": "note.txt",
+      "bytes": 4427,
+      "sha256": "6FD7259DD8EC4E8B0582082848155A1F2E1F34D1F2B05C0958B4F5FA4ECCEA5A"
+    },
+    "client_note": {
+      "name": "note.txt",
+      "bytes": 4427,
+      "sha256": "6FD7259DD8EC4E8B0582082848155A1F2E1F34D1F2B05C0958B4F5FA4ECCEA5A"
+    },
+    "current_section_equal_after_newline_normalization": true,
+    "required_date_categories_and_current_native_content_present": true
+  },
+  "deployment_tool": {
+    "tool": {
+      "name": "Configure-Deployment.py",
+      "bytes": 46208,
+      "sha256": "32B368ABD09159BC35DA4826E314FC47982255D42C43D6445F232FA6DB1934CA"
+    },
+    "instructions": {
+      "name": "Configure-Deployment-README.md",
+      "bytes": 2662,
+      "sha256": "39E1B27A9258A034121E0F4929C5532763B4AACBC2D0C3F27C3A515428680581"
+    },
+    "independent_review": {
+      "name": "49-DEPLOYMENT-HISTORY-TEST-REVIEW.json",
+      "bytes": 8569,
+      "sha256": "8C006DC95E2D1FC2A66357D5367C5889FFFC152F373798E9189CC4F4DDF1EAAE"
+    },
+    "review_result": "ACCEPT_BOUNDED_IMMUTABLE_HISTORY_TEST_EVIDENCE",
+    "cloud_execution": "NOT_RUN"
+  },
+  "publication": {
+    "public_github": "NOT_RUN",
+    "public_complete_archives_uploaded": false,
+    "private_complete_source_published": true,
+    "cloud_deployment": "NOT_RUN",
+    "external_pc_acceptance": "NOT_RUN"
+  },
+  "first_unfinished": "Root reviews this prepared directory, publishes only its approved public assets, and verifies download bytes/SHA-256 before WorkBuddy deployment."
+}
